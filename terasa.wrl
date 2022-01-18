@@ -1,0 +1,191 @@
+#VRML V2.0 utf8
+Viewpoint {position 10 2 10
+orientation 0 1 0 1.57 }
+	#teren
+	Transform {
+	translation -1.5 0 0
+	    children [		
+			Shape {
+				appearance Appearance {	 
+					material Material {	diffuseColor 0 1 0 }	 }
+				geometry Box {size 13 0.1 10}
+			}
+		]
+	}
+	Transform {	
+	translation -1.5 -0.8 0
+		children [
+		Shape {
+			appearance Appearance {
+				material Material {
+				diffuseColor 1 1 1}
+			}geometry Box {size 13.5 1.5 10.5}}
+		]
+	}
+	Transform {	
+	translation -6.5 -0.8 9
+		children [
+		Shape {
+			appearance Appearance {
+				material Material {
+				diffuseColor 1 1 1}
+			}geometry Box {size 3.5 1.5 7.5}}
+		]
+	}
+		Transform {
+	translation -6.5 0 8.9
+	    children [		
+			Shape {
+				appearance Appearance {	 
+					material Material {	diffuseColor 0.780392 0.568627 0.113725}	 }
+				geometry Box {size 3.5 0.1 7.5}
+			}
+		]
+	}
+
+
+	Transform {	
+	translation 3.5 -0.8 17.1
+		children [
+		Shape {
+			appearance Appearance {
+				material Material {
+				diffuseColor 1 1 1}
+			}geometry Box {size 10 1.5 3}}
+		]
+	}
+		Transform {
+	translation 3.5 0 17.1
+	    children [		
+			Shape {
+				appearance Appearance {	 
+					material Material {	diffuseColor 0.780392 0.568627 0.113725}	 }
+				geometry Box {size 10 0.1 3}
+			}
+		]
+	}
+
+	Transform {	
+	translation -4.9 -0.8 15.6
+		children [
+		Shape {
+			appearance Appearance {
+				material Material {
+				diffuseColor 1 1 1}
+			}geometry Box {size 6.8 1.5 6}}
+		]
+	}
+		Transform {
+	translation -4.9 0 15.6
+	    children [		
+			Shape {
+				appearance Appearance {	 
+					material Material {	diffuseColor 0.780392 0.568627 0.113725}	 }
+				geometry Box {size 6.8 0.1 6}
+			}
+		]
+	}
+	#zid terasa
+	Transform {	
+	translation 5.15 0 0 
+		children [		
+			Shape {
+				appearance Appearance {	 
+					material Material {	diffuseColor 1 1 1 }	 
+				}
+					geometry Box {size 0.2 1 10.5}					
+				}
+		]}
+	Transform {	
+	translation -1.5 0 -5.15
+		children [		
+			Shape {
+				appearance Appearance {	 
+					material Material {	diffuseColor 1 1 1 }	 
+				}
+					geometry Box {size 13.5 1 0.2}					
+				}
+		]}
+		Transform {	
+	translation 1 0 5.15
+		children [		
+			Shape {
+				appearance Appearance {	 
+					material Material {	diffuseColor 1 1 1 }	 
+				}
+					geometry Box {size 8.5 1 0.2}					
+				}
+			]}
+	#mese+scaune
+	Transform {
+	translation -1 -0.1 2
+	children [DEF masa_scaun Inline	{url "masa_scaune.wrl"}
+		]}
+	Transform {
+	translation 3 -0.1 4
+	children [USE masa_scaun 
+		]}
+	Transform {
+	translation -3 -0.1 -4
+	children [USE masa_scaun 
+		]}
+	Transform {
+	translation 4 -0.1 -2
+	children [USE masa_scaun 
+		]}
+	Transform {
+	translation 1.6 -0.1 3
+	children [USE masa_scaun 
+		]}
+	Transform {
+	translation -2 -0.1 1
+	children [USE masa_scaun 
+		]}
+	Transform {
+	translation -3.7 -0.1 3.2
+	children [USE masa_scaun 
+		]}
+	Transform {
+	translation 3.7 -0.1 -3.9
+	children [DEF masa_scaun Inline	{url "masa_scaune.wrl"}
+		]}
+	Transform {
+	translation -3.7 -0.1 -2
+	children [DEF masa_scaun Inline	{url "masa_scaune.wrl"}
+		]}
+	Transform {
+	translation 0 -0.1 -2
+	children [DEF masa_scaun Inline	{url "masa_scaune.wrl"}
+	]}
+#scari la terasa
+		Transform {
+			translation	-3.35 -1.437 5.95
+			scale 0.7 1.5 0.7
+			children [DEF scara Inline {url "scari.wrl"}]
+		}
+#scaune teren
+	Transform {
+		translation -2.17 -1.37 8.15
+		rotation 0 1 0 1.57
+		scale 0.5 0.6 0.5
+		children [
+			Inline {url "bancaTFF.wrl"}]}
+	Transform {
+		translation -0.3 -1.4 13
+		rotation 0 1 0 3.14
+		scale 0.4 0.6 0.5
+		children [
+			Inline {url "bancaTFF.wrl"}]}
+	Transform {
+		translation 4.5 -1.4 13
+		rotation 0 1 0 3.14
+		scale 0.45 0.6 0.5
+		children [
+			Inline {url "bancaTFF.wrl"}]}
+#Teren de baza
+	Transform {
+		translation 6 -1.5 5.5
+		rotation 0 1 0 3.14
+		scale 2.9 0.1 2.5
+		children [
+            Inline {url "pamantterasa.wrl"}]}

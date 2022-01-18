@@ -1,0 +1,114 @@
+#VRML V2.0 utf8
+
+Shape {
+	appearance DEF Brown Appearance {
+		material Material {
+			diffuseColor 0.6 0.3 0.2}
+		}
+		geometry Box{
+			size 39 1 1}
+		}
+Transform {
+	translation	-19 11.5 0
+	children [
+		Shape {
+			appearance USE Brown
+			geometry Box {
+				size 1 23 1}
+			}
+		]
+	}
+Transform {
+	translation	19 11.5 0
+	children [
+		Shape {
+			appearance USE Brown
+			geometry Box {
+				size 1 23 1}
+			}
+		]
+	}
+Transform {
+	translation	0 23 0
+	children [
+		Shape {
+			appearance USE Brown
+			geometry Box {
+				size 39 1 1}
+			}
+		]
+	}
+Transform {
+	translation	-6.5 11.5 0
+	children [
+		Shape {
+			appearance USE Brown
+			geometry Box {
+				size 1 23 1}
+			}
+		]
+	}
+Transform {
+	translation	6.5 11.5 0
+	children [
+		Shape {
+			appearance USE Brown
+			geometry Box {
+				size 1 23 1}
+			}
+		]
+	}
+Transform {
+	translation	0 8 0
+	children [
+		Shape {
+			appearance USE Brown
+			geometry Box {
+				size 12 1 1}
+			}
+		]
+	}
+Transform {
+	translation	-12.75 11.5  0
+	children [
+		Shape {
+			appearance DEF Blue Appearance {
+				material Material {
+					diffuseColor 0.6 0.6 0.7
+					transparency 0.2}
+				}
+				geometry Box {
+					size 11.5 22 0.4}
+				}
+			]
+		}
+Transform {
+	translation	12.75 11.5  0
+	children [
+		Shape {
+			appearance USE Blue
+				geometry Box {
+					size 11.5 22 0.4}
+				}
+			]
+		}
+Transform {
+	translation	0 15.5 0
+	children [
+		Shape {
+			appearance USE Blue
+				geometry Box {
+					size 12 14 0.4}
+				}
+			]
+		}
+Transform {
+	translation	0 4 0
+	children [
+		Shape {
+			appearance USE Blue
+				geometry Box {
+					size 12 7 0.4}
+				}
+			]
+		}

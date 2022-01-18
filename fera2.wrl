@@ -1,0 +1,94 @@
+#VRML V2.0 utf8
+
+Transform {
+	translation	0 0 0 
+	children [
+		Shape {
+			appearance DEF White Appearance	{
+				material Material {
+					diffuseColor 1 1 1}
+				}
+				geometry Box {
+					size 95 1 1}
+				}
+			]
+		}
+Transform {
+	translation	-47 20.5 0
+	children [ Shape {
+			appearance USE White
+			geometry Box {
+				size 1 42 1}
+			}
+		]
+	}
+Transform {
+	translation	47 20.5 0
+	children [ Shape {
+			appearance USE White
+			geometry Box {
+				size 1 42 1}
+			}
+		]
+	}
+Transform {
+	translation	-31 20.5 0
+	children [ Shape {
+			appearance USE White
+			geometry Box {
+				size 1 42 1}
+			}
+		]
+	}
+Transform {
+	translation	31 20.5 0
+	children [ Shape {
+			appearance USE White
+			geometry Box {
+				size 1 42 1}
+			}
+		]
+	}
+Transform {
+	translation	0 41 0 
+	children [
+		Shape {
+			appearance USE White
+				geometry Box {
+					size 95 1 1}
+				}
+			]
+		}
+Transform {
+	translation	0 20.5 0
+	children [ Shape {
+			appearance USE White
+			geometry Box {
+				size 1 42 1}
+			}
+		]
+	}
+Transform {
+	translation	0 30 0 
+	children [
+		Shape {
+			appearance USE White
+				geometry Box {
+					size 95 1 1}
+				}
+			]
+		}
+Transform {
+	translation	0 20.5 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.6 0.6 0.7
+					transparency 0.2}
+				}
+				geometry Box {
+					size 93 40 0.4}
+				}
+			]
+		}

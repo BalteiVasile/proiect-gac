@@ -1,0 +1,110 @@
+#VRML V2.0 utf8
+
+Group {
+	#suport
+	 children[
+		Shape {
+			appearance Appearance {
+				material Material {
+				diffuseColor 1 1 1}
+			}
+			geometry Box {
+				size 6 0.5 1.5}}
+					   Transform
+			{
+				translation	2.9 0.3 0.35
+				children [
+					DEF lemn Shape{
+						appearance DEF brown Appearance {
+							material Material {diffuseColor 0.82 0.7 0.54}}
+							geometry Box {size 0.2 0.1 0.8}}]
+			}
+			Transform
+			{
+				translation	2.5 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	2.1 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	1.7 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	1.3 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	0.9 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	0.5 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	0.1 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+				  Transform
+			{
+				translation	-0.3 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	-0.7 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	-1.1 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	-1.5 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	-1.9 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	-2.3 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+			Transform
+			{
+				translation	-2.7 0.3 0.35
+				children [
+					USE	lemn ]
+			}
+	]
+	
+	
+}
+																

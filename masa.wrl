@@ -1,0 +1,46 @@
+#VRML V2.0 utf8
+
+#VRML V2.0 utf8
+
+#VRML V2.0 utf8
+
+Transform {
+	translation	0.0 0.53 0.0
+	children [
+		Shape {
+			appearance DEF Black Appearance 	{
+				material Material {
+				diffuseColor 0 0 0 }
+			}
+			geometry Box{
+				size 0.39 0.03 0.41
+			}
+		}
+	]
+}
+
+
+Transform {
+	translation	-0.1575 0.3485 -0.1575
+	children [DEF	Leg Shape {
+			appearance	USE	Black
+			geometry Box {
+			size 0.03 0.35 0.03
+			}
+		} ]
+}
+
+Transform {
+	translation	0.1575 0.3485 -0.1575
+	children [USE Leg ]
+}
+
+Transform {
+	translation	-0.1575 0.3485 0.1532
+	children [USE	Leg ]
+}
+
+Transform {
+	translation	0.1575 0.3485 0.1532
+	children [USE Leg ]
+}

@@ -1,0 +1,5766 @@
+#VRML V2.0 utf8
+
+Background {
+  skyColor [0.1333 0.1333 1, 0.7569 0.7569 1, 0.8941 0.8941 1, ]
+  skyAngle [0.7854, 1.571, ]
+  groundColor [0.7 0.4 0.3, 0.9333 0.4392 0, 1 0.8706 0.7059, ]
+  groundAngle [0.7854, 1.571, ]
+}
+
+Viewpoint {
+position -700.0 -80.0 1500.0
+orientation 0 0 1 0
+}
+
+#Corp D
+#Begin
+
+Transform {
+  translation 60.0 -60.0 280.0
+  scale 1 0.7 0.8
+	children [
+        Inline {url "Scaracorpd.wrl"}]}
+
+Transform {
+  translation 190.0 68.0 490.0
+  scale 1 2.4 3.2
+	children [
+        Inline {url "CorpDI.wrl"}]}
+
+Transform {
+  translation 89.3 -40.0 319.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 8.0 80.0 8.0
+    }
+  }
+}
+
+Transform {
+  translation 30.0 30.0 25.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 220.0 450.0
+    }
+  }
+}
+Transform {
+	translation 130.0 -50.0 -30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 -50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 -70.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 20.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50. 35.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 65.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 115.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 135.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 155.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation 130.0 -50.0 175.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 -50.0 195.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 -30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 -50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 -70.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 20.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0. 35.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 65.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 115.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 135.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 155.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation 130.0 0.0 175.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 0.0 195.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 -30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 -50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 -70.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 20.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80. 35.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 65.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 115.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 135.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 155.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation 130.0 80.0 175.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation 130.0 80.0 195.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+  translation 69.0 -26.0 250.0
+  scale 1 1 1
+	children [
+        Inline {url "usadreapta.wrl"}]}
+Transform {
+  translation 51.0 -26.0 250.0
+  scale 1 1 1
+	children [
+        Inline {url "usastanga.wrl"}]}
+Transform {
+  translation 105.0 -40.0 250.0
+  scale 1 1 1
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 -50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 -50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 -50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 -30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 -30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 -30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 -10.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 -10.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 -10.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 10.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 10.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 10.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 30.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -70.0 80.0 50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 50.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}  
+Transform {
+	translation -70.0 80.0 70.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 70.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 70.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 90.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 90.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 90.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 110.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 110.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 110.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 130.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 130.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 130.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 80.0 150.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 150.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 150.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -70.0 80.0 170.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 170.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 170.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}  
+Transform {
+	translation -70.0 80.0 190.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 190.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 190.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}  
+Transform {
+	translation -70.0 80.0 210.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 30.0 210.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -70.0 -20.0 210.0
+  rotation 0 1 0 1.57
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+
+Transform {
+  translation -72.5 46.0 220.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 200.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 180.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 160.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -72.5 46.0 140.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 120.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 100.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -72.5 46.0 60.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 40.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 20.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 0.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -72.5 46.0 -20.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 -40.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+Transform {
+  translation -72.5 46.0 -60.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 150.0 5.0
+    }
+  }
+}
+    
+Transform {
+  translation -72.5 115.0 80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 280.0
+    }
+  }
+}
+Transform {
+  translation -72.5 70.0 80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 280.0
+    }
+  }
+}
+Transform {
+  translation -72.5 20.0 80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 280.0
+    }
+  }
+}
+Transform {
+  translation -72.5 -25.0 80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 280.0
+    }
+  }
+} 
+Transform {
+	translation 10.0 -20.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -10.0 -20.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -30.0 -20.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -50.0 -20.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}  
+Transform {
+	translation 10.0 30.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -10.0 30.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -30.0 30.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -50.0 30.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation 10.0 80.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -10.0 80.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -30.0 80.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -50.0 80.0 250.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+  translation -20.0 115.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 80.0 5.0 5.0
+    }
+  }
+}
+Transform {
+  translation -20.0 70.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 80.0 5.0 5.0
+    }
+  }
+}
+Transform {
+  translation -20.0 20.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 80.0 5.0 5.0
+    }
+  }
+}
+Transform {
+  translation -20.0 -30.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 80.0 5.0 5.0
+    }
+  }
+}
+Transform {
+  translation -20.0 42.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation 0.0 42.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation 20.0 42.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation -40.0 42.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation -60.0 42.0 252.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+
+
+Transform {
+  translation -170.0 40.0 -140.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 160.0 120.0
+    }
+  }
+}
+
+
+Transform {
+	translation -210.0 -30.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -210.0 25.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -210.0 80.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -120.0 -30.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -120.0 25.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -120.0 80.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -30.0 -30.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -30.0 25.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation -30.0 80.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation 60.0 -30.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation 60.0 25.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+Transform {
+	translation 60.0 80.0 -200.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer80x30.wrl"}]}
+
+
+Transform {
+  translation -137.0 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation -170.0 115.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 5.0 5.0
+    }
+  }
+}
+Transform {
+	translation -145.0 -20.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -145.0 30.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -145.0 80.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+  translation -152.5 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation -170.0 70.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 5.0 5.0
+    }
+  }
+}
+Transform {
+	translation -160.0 -20.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -160.0 30.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -160.0 80.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+  translation -167.5 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation -170.0 20.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 5.0 5.0
+    }
+  }
+}
+Transform {
+	translation -190.0 -20.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -190.0 30.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -190.0 80.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+  translation -182.0 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+  translation -170.0 -25.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 5.0 5.0
+    }
+  }
+}
+Transform {
+	translation -205.0 -20.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -205.0 30.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -205.0 80.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+  translation -197.5 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+	translation -220.0 -20.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -220.0 30.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -220.0 80.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+  translation -212.5 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+	translation -235.0 -20.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -235.0 30.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -235.0 80.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+  translation -227.5 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}
+Transform {
+	translation -250.0 -20.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+	translation -250.0 30.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]}
+Transform {
+	translation -250.0 80.0 -80.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer10x30.wrl"}]} 
+Transform {
+  translation -242.5 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}     
+Transform {
+  translation -257.5 40.0 -80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 160.0 5.0
+    }
+  }
+}   
+        
+
+Transform {
+  translation -170.0 -60.0 -140.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 40.0 120.0
+    }
+  }
+}
+
+Transform {
+  translation -300.0 -60.0 -140.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 60.0 40.0 120.0
+    }
+  }
+}
+
+Transform {
+  translation -300.0 -60.0 -220.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 60.0 40.0 40.0
+    }
+  }
+}
+Transform {
+  translation -250.0 -60.0 -260.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 160.0 40.0 40.0
+    }
+  }
+}
+Transform {
+  translation -190.0 -60.0 -370.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 40.0 40.0 180.0
+    }
+  }
+}
+Transform {
+  translation -270.0 -70.0 -370.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 120.0 20.0 180.0
+    }
+  }
+}
+Transform {
+  translation -270.0 -50.0 -440.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 120.0 20.0 40.0
+    }
+  }
+}
+Transform {
+  translation -355.0 -70.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 50.0 20.0 140.0
+    }
+  }
+}
+Transform {
+  translation -355.0 -60.0 -423.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 50.0 40.0 6.0
+    }
+  }
+}
+Transform {
+  translation -382.0 -65.0 -276.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 300.0
+    }
+  }
+}
+Transform {
+	translation -330.0 -62.5 -443.0
+  rotation 0 1 0 3.14
+	scale 1.5 1 1
+	children [
+        Inline {url "scarii.wrl"}]} 
+Transform {
+	translation -210.0 -50.0 -280.0
+  rotation 0 1 0 4.71
+	scale 1.4 0.33 1.2
+	children [
+        Inline {url "panta.wrl"}]} 
+Transform {
+	translation -330.0 -70.0 -280.0
+	scale 0.5 0.33 2.1
+	children [
+        Inline {url "panta.wrl"}]} 
+Transform {
+	translation -110.0 -40.0 -80.0
+	scale 0.5 0.5 0.3
+	children [
+        Inline {url "Scarad.wrl"}]} 
+
+
+
+Transform {
+  translation -340.0 20.0 -120.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 140.0 40.0 60.0
+    }
+  }
+}
+
+Transform {
+	translation -375.0 7.0 -88.0
+	scale 1 1 1
+	children [
+        Inline {url "Ferpod.wrl"}]}
+Transform {
+	translation -345.0 7.0 -88.0
+	scale 1 1 1
+	children [
+        Inline {url "Ferpod.wrl"}]}
+Transform {
+	translation -305.0 7.0 -88.0
+	scale 1 1 1
+	children [
+        Inline {url "Ferpod.wrl"}]}
+Transform {
+  translation -389.0 22.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -362.0 22.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -358.0 22.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -332.0 22.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -318.0 22.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -290.0 22.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -340.0 5.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 100.0 2.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -340.0 38.0 -88.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 100.0 2.0 5.0
+    }
+  }
+} 
+Transform {
+	translation -375.0 7.0 -152.0
+	scale 1 1 1
+	children [
+        Inline {url "Ferpod.wrl"}]}
+Transform {
+	translation -345.0 7.0 -152.0
+	scale 1 1 1
+	children [
+        Inline {url "Ferpod.wrl"}]}
+Transform {
+	translation -305.0 7.0 -152.0
+	scale 1 1 1
+	children [
+        Inline {url "Ferpod.wrl"}]}
+Transform {
+  translation -389.0 22.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -362.0 22.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -358.0 22.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -332.0 22.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -318.0 22.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -290.0 22.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 2.0 34.0 5.0
+    }
+  }
+}
+Transform {
+  translation -340.0 5.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 100.0 2.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -340.0 38.0 -152.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 100.0 2.0 5.0
+    }
+  }
+}
+
+Transform {
+	translation -270.0 -20.0 -120.0
+  rotation 0 1 0 1.57
+	scale 1.3 1 1
+	children [
+        Inline {url "usadreapta.wrl"}]}
+
+Transform {
+  translation -285.0 0.0 -100.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 80.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation -285.0 0.0 -140.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 80.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation -385.0 -20.0 -100.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation -385.0 -20.0 -140.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+
+Transform {
+	translation -167 -41 145
+	scale 12 26 12
+	rotation 0 1 0 3.14
+	children [
+		DEF Terasa Inline{
+			url "terasa.wrl" 
+			}	
+		]
+	}
+
+Transform {
+	translation 90.0 170.0 330.0
+	scale 1 1 3.2
+	children [
+        Inline {url "AcoperisCorpD.wrl"}]}
+
+Transform {
+	translation 30.0 144.5 250.0
+  rotation 0 1 0 4.71
+	scale 4.5 0.15 1
+	children [
+        Inline {url "AcoperisCorpA.wrl"}]} 
+
+Transform {
+	translation -340.0 50.0 -120.0  
+	scale 0.7 1 0.30
+	children [
+        Inline {url "AcoperisPod.wrl"}]} 
+
+Transform {
+	translation -70.0 138.0 -112.0
+	scale 2.0 0.6 1.1
+	children [
+        Inline {url "AcoperisCorpD1.wrl"}]}
+
+Transform {
+	translation -300.0 -65.0 -80.0
+  rotation 0 1 0 4.71
+	scale 1 1 1.75
+	children [
+        Inline {url "scarii.wrl"}]}
+
+#Corp D
+#End
+
+
+#Corp A
+#Begin
+
+Transform {
+  translation -460.0 -50.0 -60.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+  textureTransform TextureTransform{
+    scale 10 5
+  }
+    }
+    geometry Box {
+  size 100.0 60.0 580.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 222.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 200.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 200.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 178.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 162.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 140.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 140.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 118.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 102.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 80.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 80.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 58.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 42.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 20.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 20.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -2.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -18.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 -40.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 -40.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -62.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -78.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 -100.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 -100.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -122.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -138.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 -160.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 -160.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -182.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -198.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 -220.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 -220.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -242.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -258.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 -45.0 -280.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -410.0 -47.0 -280.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 3.0 3.0 38.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -35.0 -302.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -416.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -438.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -438.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -460.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -482.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -482.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -504.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -522.0 -55.0 -350.0
+	scale 1.1 1.2 1.1 
+	children [
+        Inline {url "usastangaspate.wrl"}]}
+Transform {
+	translation -542.0 -55.0 -350.0
+ 
+	scale 1.1 1.2 1.1
+	children [
+        Inline {url "usadreaptaspate.wrl"}]}
+
+Transform {
+  translation -560.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -582.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -582.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -604.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -626.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -626.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -648.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -670.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -670.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -692.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -714.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -714.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -738.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -760.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -760.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -782.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -804.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -804.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -826.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -848.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -848.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -870.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -892.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -892.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -914.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -936.0 -45.0 -350.0
+  
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -936.0 -47.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -958.0 -35.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+
+Transform {
+  translation -460.0 15.0 -60.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+  size 100.0 70.0 580.0
+    }
+  }
+} 
+Transform {
+  translation -410.0 22.0 217.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 200.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 185
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 175.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 165
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 150.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 135
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 125.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 115
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 100.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 85
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+  translation -410.0 45.0 150
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 130.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -1.0 150
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 130.0
+    }
+  }
+}
+Transform {
+  translation -410.0 22.0 57.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 40.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 25
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 15.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 -10.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 -25.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 -35.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 -45.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+	translation -410.0 10.0 -60.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -410.0 22.0 -75
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 50.0 5.0
+    }
+  }
+}
+Transform {
+  translation -410.0 45.0 -10
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 130.0
+    }
+  }
+}
+Transform {
+  translation -410.0 -1.0 -10
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 5.0 130.0
+    }
+  }
+}
+Transform {
+	translation -426.0 8.0 -350.0
+	scale 1 1.3 1 
+	children [
+        Inline {url "Fer30x30.wrl"}]}
+Transform {
+	translation -458.0 8.0 -350.0
+	scale 1 1.3 1 
+	children [
+        Inline {url "Fer30x30.wrl"}]}
+Transform {
+	translation -494.0 8.0 -350.0
+	scale 1 1.3 1 
+	children [
+        Inline {url "Fer30x30.wrl"}]}
+Transform {
+  translation -460.0 6.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 100.0 2.0 4.0
+    }
+  }
+}
+Transform {
+  translation -476.0 28.0 -350.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 45.0 4.0
+    }
+  }
+}
+Transform {
+	translation -410.0 5.0 -190.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+	translation -410.0 5.0 -165.0
+  rotation 0 1 0 1.57
+	scale 1 1 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -410.0 20.0 -207.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 35.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 20.0 -175.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 35.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 20.0 -155.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 35.0 4.0
+    }
+  }
+}
+Transform {
+  translation -410.0 37.0 -181.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 4.0 60.0
+    }
+  }
+}
+Transform {
+  translation -410.0 2.0 -181.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 4.0 60.0
+    }
+  }
+}
+
+
+Transform {
+  translation -670.0 30.0 -300.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 320.0 100.0 180.0
+    }
+  }
+}
+
+Transform {
+	translation -550.0 10.0 -390.0
+	scale 1.1 1.6 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -560.0 10.0 -390.0
+	scale 1.1 1.6 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -570.0 10.0 -390.0
+	scale 1.1 1.6 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -580.0 12.0 -390.0
+	scale 1.1 1.55 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]} 
+Transform {
+	translation -590.0 14.0 -390.0
+	scale 1.1 1.5 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -600.0 16.0 -390.0
+	scale 1.1 1.45 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]} 
+Transform {
+	translation -610.0 18.0 -390.0
+	scale 1.1 1.4 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -620.0 20.0 -390.0
+	scale 1.1 1.35 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -630.0 22.0 -390.0
+	scale 1.1 1.3 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -640.0 24.0 -390.0
+	scale 1.1 1.25 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -710.0 10.0 -390.0
+	scale 1.1 1.6 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -720.0 10.0 -390.0
+	scale 1.1 1.6 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -730.0 10.0 -390.0
+	scale 1.1 1.6 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -740.0 12.0 -390.0
+	scale 1.1 1.55 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]} 
+Transform {
+	translation -750.0 14.0 -390.0
+	scale 1.1 1.5 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -760.0 16.0 -390.0
+	scale 1.1 1.45 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]} 
+Transform {
+	translation -770.0 18.0 -390.0
+	scale 1.1 1.4 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -780.0 20.0 -390.0
+	scale 1.1 1.35 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -790.0 22.0 -390.0
+	scale 1.1 1.3 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}
+Transform {
+	translation -800.0 24.0 -390.0
+	scale 1.1 1.25 1 
+	children [
+        Inline {url "Fer7x40.wrl"}]}        
+        
+Transform {
+  translation -750.0 -50.0 -280.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+  textureTransform TextureTransform{
+    scale 10 5
+  }
+    }
+    geometry Box {
+ size 480.0 60.0 140.0
+    }
+  }
+}
+Transform {
+  translation -735.0 -70.0 -210.0
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -735.0 -13.0 -210.0
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -640.0 -70.0 -210.0
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -640.0 -13.0 -210.0
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -563.0 -70.0 -210.0
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -563.0 -13.0 -210.0
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+
+Transform {
+  translation -510.0 -70.0 -160.0
+  rotation 0 1 0 1.57
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -510.0 -13.0 -160.0
+  rotation 0 1 0 1.57
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -510.0 -70.0 -65.0
+  rotation 0 1 0 1.57
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -510.0 -13.0 -65.0
+  rotation 0 1 0 1.57
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -510.0 -70.0 12.0
+  rotation 0 1 0 1.57
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -510.0 -13.0 12.0
+  rotation 0 1 0 1.57
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+
+Transform {
+  translation -830.0 -70.0 70.0
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -830.0 -13.0 70.0
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -735.0 -70.0 70.0
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -735.0 -13.0 70.0
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -640.0 -70.0 70.0
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -640.0 -13.0 70.0
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -563.0 -70.0 70.0
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -563.0 -13.0 70.0
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+
+Transform {
+  translation -890.0 -70.0 12.0
+  rotation 0 1 0 1.57
+  scale 1 1.2 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -890.0 -13.0 12.0
+  rotation 0 1 0 1.57
+  scale 1 1.5 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -890.0 -13.0 -65.0
+  rotation 0 1 0 1.57
+  scale 1 1.5 1
+	children [
+        Inline {url "fera1.wrl"}]}
+
+
+Transform {
+  translation -860.0 15.0 -280.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 60.0 70.0 140.0
+    }
+  }
+}
+
+Transform {
+  translation -293.5 20.0 275.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 433 200.0 90.0
+    }
+  }
+}
+
+Transform {
+  translation -400.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -378.0 -45.0 230.0
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -378.0 -47.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -356.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -340.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -318.0 -45.0 230.0
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -318.0 -47.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -296.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -280.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -258.0 -45.0 230.0
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -258.0 -47.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -236.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -220.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -198.0 -45.0 230.0
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -198.0 -47.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -176.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+  translation -160.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -138.0 -45.0 230.0
+	scale 1 1 1 
+	children [
+        Inline {url "Fer39x23.wrl"}]}
+Transform {
+  translation -138.0 -47.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 38.0 3.0 3.0
+    }
+  }
+}
+Transform {
+  translation -116.0 -35.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+    }
+    geometry Box {
+ size 4.0 30.0 4.0
+    }
+  }
+}
+Transform {
+	translation -90.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -90.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -110.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -110.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -130.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -130.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -150.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -150.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -170.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -170.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -190.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -190.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -210.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -210.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -230.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -230.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -250.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -250.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -270.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -270.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -290.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -290.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -310.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -310.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -330.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -330.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -350.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -350.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -370.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -370.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -390.0 70.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -390.0 20.0 230.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -400.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -380.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -360.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -340.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -320.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -300.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -280.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -260.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -240.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -220.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -200.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -180.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -160.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -140.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -120.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -100.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -80.0 50.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -240.0 0.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 325.0 5.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -240.0 15.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 325.0 5.0 5.0
+    }
+  }
+}          
+Transform {
+  translation -240.0 55.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 325.0 5.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -240.0 65.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 325.0 5.0 5.0
+    }
+  }
+}
+Transform {
+  translation -240.0 105.0 230.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 325.0 5.0 5.0
+    }
+  }
+}  
+
+Transform {
+	translation -90.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -90.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -110.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -110.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -130.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -130.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -150.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -150.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -170.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -170.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -190.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -190.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -210.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -210.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -230.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform { 
+	translation -230.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -250.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -250.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -270.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -270.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -290.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -290.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -310.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -310.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -330.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -330.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -350.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -350.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -370.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -370.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -390.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -390.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -410.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -410.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -430.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -430.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -450.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -450.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -470.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]} 
+Transform {
+	translation -470.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -490.0 70.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+	translation -490.0 20.0 320.0
+	scale 1 1 1
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -500.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -480.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -460.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -440.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -420.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -400.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -380.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -360.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -340.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -320.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -300.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -280.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -260.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -240.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -220.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -200.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -180.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -160.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -140.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -120.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -100.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -80.0 50.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 120.0 5.0
+    }
+  }
+}
+Transform {
+  translation -290.0 0.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 425.0 5.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -290.0 15.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 425.0 5.0 5.0
+    }
+  }
+}          
+Transform {
+  translation -290.0 55.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 425.0 5.0 5.0
+    }
+  }
+} 
+Transform {
+  translation -290.0 65.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 425.0 5.0 5.0
+    }
+  }
+}
+Transform {
+  translation -290.0 105.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 425.0 5.0 5.0
+    }
+  }
+}
+Transform {
+	translation -510.0 140.0 270.0 
+  rotation 0 1 0 1.57
+	scale 3 0.5 1
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+	translation -510.0 100.0 270.0 
+  rotation 0 1 0 1.57
+	scale 3 0.5 1
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+	translation -510.0 60.0 270.0 
+  rotation 0 1 0 1.57
+	scale 3 0.5 1
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+	translation -510.0 20.0 270.0 
+  rotation 0 1 0 1.57
+	scale 3 0.5 1
+	children [
+        Inline {url "fera3.wrl"}]}
+
+
+Transform {
+  translation -460.0 150.0 275.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 100.0 60.0 90.0
+    }
+  }
+}
+
+Transform {
+  translation -360.0 150.0 275.0
+  children Shape {
+    appearance Appearance {
+      material Material { diffuseColor 0.5 0.5 0.8}
+    }
+    geometry Box {
+ size 100.0 60.0 96.0
+    }
+  }
+}
+
+
+Transform {
+  translation -808.0 -80.0 -210.0
+  scale 0.5 0.7 0.5
+	children [
+        Inline {url "scaraa.wrl"}]}
+
+Transform {
+  translation -940.0 15.0 -65.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+  textureTransform TextureTransform{
+    scale 10 5
+  }
+    }
+    geometry Box {
+  size 100.0 70.0 570.0
+    }
+  }
+}
+
+Transform {
+  translation -940.0 -50.0 65.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "brick1.jpg"
+  }
+  textureTransform TextureTransform{
+    scale 10 5
+  }
+    }
+    geometry Box {
+  size 100.0 60.0 310.0
+    }
+  }
+}
+Transform {
+  translation -990.0 -70.0 -250.0
+  rotation 0 1 0 1.57
+  scale 0.5 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -990.0 -70.0 -50.0
+  rotation 0 1 0 1.57
+  scale 0.5 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -990.0 -70.0 5.0
+  rotation 0 1 0 1.57
+  scale 0.5 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -990.0 -70.0 60.0
+  rotation 0 1 0 1.57
+  scale 0.5 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -990.0 -70.0 115.0
+  rotation 0 1 0 1.57
+  scale 0.5 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -990.0 -70.0 170.0
+  rotation 0 1 0 1.57
+  scale 0.5 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -990.0 0.0 170.0
+  rotation 0 1 0 1.57
+  scale 0.5 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -990.0 20.0 -278.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 -267.0
+  rotation 0 1 0 1.57
+	scale 1 1.5 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -990.0 20.0 -222.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 -244.0
+  rotation 0 1 0 1.57
+	scale 1.38 1.5 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -990.0 -6.0 -250.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 10.0 60.0
+    }
+  }
+}
+Transform {
+  translation -990.0 20.0 -191.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 -180.0
+  rotation 0 1 0 1.57
+	scale 1 1.5 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -990.0 20.0 -135.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 -157.0
+  rotation 0 1 0 1.57
+	scale 1.38 1.5 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -990.0 -6.0 -163.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 10.0 60.0
+    }
+  }
+}
+Transform {
+  translation -990.0 20.0 -77.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 -67.0
+  rotation 0 1 0 1.57
+	scale 1 1.5 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -990.0 20.0 -23.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 -44.0
+  rotation 0 1 0 1.57
+	scale 1.38 1.5 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -990.0 -6.0 -50.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 10.0 60.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 -13.0
+  rotation 0 1 0 1.57
+	scale 1 1.5 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -990.0 20.0 31.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 10.0
+  rotation 0 1 0 1.57
+	scale 1.38 1.5 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -990.0 -6.0 4.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 10.0 60.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 41.0
+  rotation 0 1 0 1.57
+	scale 1 1.5 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -990.0 20.0 85.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 64.0
+  rotation 0 1 0 1.57
+	scale 1.38 1.5 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -990.0 -6.0 58.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 10.0 60.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 95.0
+  rotation 0 1 0 1.57
+	scale 1 1.5 1 
+	children [
+        Inline {url "Fer13x30.wrl"}]}
+Transform {
+  translation -990.0 20.0 139.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 60.0 5.0
+    }
+  }
+}
+Transform {
+	translation -990.0 0.0 118.0
+  rotation 0 1 0 1.57
+	scale 1.38 1.5 1 
+	children [
+        Inline {url "Fer26x30.wrl"}]}
+Transform {
+  translation -990.0 -6.0 112.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 5.0 10.0 60.0
+    }
+  }
+}
+Transform {
+  translation -990.0 -50.0 205.0
+  rotation 0 1 0 1.57
+  scale 1 1 1
+	children [
+        Inline {url "usadreaptaspate.wrl"}]}
+Transform {
+  translation -910.0 -50.0 -90.0
+  rotation 0 1 0 3.14
+  scale 1 1 1
+	children [
+        Inline {url "usadreapta.wrl"}]}
+Transform {
+  translation -910.0 -50.0 -210.0
+  scale 1 1 1
+	children [
+        Inline {url "usadreapta.wrl"}]}
+
+
+Transform {
+  translation -725.0 -15.0 150.0
+  children Shape {
+    appearance Appearance {
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+  textureTransform TextureTransform{
+    scale 10 5
+  }
+    }
+    geometry Box {
+ size 440.0 130.0 160.0
+    }
+  }
+}
+Transform {
+	translation -890.0 -10.0 230.0 
+	scale 1 1.4 1
+	children [
+        Inline {url "fera1.wrl"}]}
+Transform {
+	translation -890.0 -70.0 230.0 
+	scale 1 1.4 1
+	children [
+        Inline {url "fera1.wrl"}]}
+Transform {
+	translation -780.0 -10.0 230.0 
+	scale 1 1.4 1
+	children [
+        Inline {url "fera1.wrl"}]}
+Transform {
+	translation -780.0 -70.0 230.0 
+	scale 1 1.4 1
+	children [
+        Inline {url "fera1.wrl"}]}
+Transform {
+	translation -680.0 -10.0 230.0 
+	scale 1 1.4 1
+	children [
+        Inline {url "fera1.wrl"}]}
+Transform {
+	translation -570.0 -10.0 230.0 
+	scale 1 1.4 1
+	children [
+        Inline {url "fera1.wrl"}]}
+Transform {
+	translation -570.0 -70.0 230.0 
+	scale 1 1.4 1
+	children [
+        Inline {url "fera1.wrl"}]}
+Transform {
+  translation -835.0 -10.0 232.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 6.0 120.0 6.0
+    }
+  }
+}
+Transform {
+  translation -620.0 -10.0 232.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 6.0 120.0 4.0
+    }
+  }
+}
+Transform {
+	translation -689.0 -40.0 230.0 
+	scale 1 1 1
+	children [
+        Inline {url "usastanga.wrl"}]}
+Transform {
+	translation -671.0 -40.0 230.0 
+	scale 1 1 1
+	children [
+        Inline {url "usadreapta.wrl"}]}
+
+
+Transform {
+  translation -1040.0 -15.0 320.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+  texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 200.0 130.0 200.0
+    }
+  }
+}
+Transform {
+  translation -1130.0 -15.0 430.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+  texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 15.0 130.0 15.0
+    }
+  }
+}
+Transform {
+  translation -1080.0 -45.0 430.0
+  scale 1.5 1.7 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -1065.0 -40.0 430.0
+  scale 1.5 1.6 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -1050.0 -35.0 430.0
+  scale 1.5 1.5 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -1035.0 -35.0 430.0
+  scale 1.5 1.5 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -1020.0 -30.0 430.0
+  scale 1.5 1.4 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -1005.0 -30.0 430.0
+  scale 1.5 1.4 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -990.0 -25.0 430.0
+  scale 1.5 1.3 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -975.0 -20.0 430.0
+  scale 1.5 1.2 1 
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -950.0 -15.0 430.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+  texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 15.0 130.0 15.0
+    }
+  }
+}
+Transform {
+  translation -1040.0 0.0 220.0
+  scale 1 1 1
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -1080.0 -60.0 220.0
+  scale 4 0.7 1
+	children [
+        Inline {url "fera3.wrl"}]}
+Transform {
+  translation -940.0 -70.0 365.0
+  rotation 0 1 0 1.57
+  scale 1 1 1 
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -940.0 5.0 365.0
+  rotation 0 1 0 1.57
+  scale 1 1 1 
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -940.0 5.0 286.0
+  rotation 0 1 0 1.57
+  scale 1 1 1 
+	children [
+        Inline {url "fera2.wrl"}]}
+Transform {
+  translation -910.0 -77.0 270.0
+  scale 0.3 0.165 1 
+	children [
+        Inline {url "panta.wrl"}]}
+Transform {
+  translation -925.0 -77.0 250.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+  texture ImageTexture {
+   url "wbrick.jpg"
+  }
+    }
+    geometry Box {
+ size 30.0 10.0 40.0
+    }
+  }
+}
+Transform {
+  translation -940.0 -52.0 250.0
+  rotation 0 1 0 1.57
+  scale 1.1 1 1 
+	children [
+        Inline {url "usadreapta.wrl"}]}
+
+Transform {
+	translation -860.0 8.0 -350.0
+	scale 1.4 1.3 1 
+	children [
+        Inline {url "Fer30x30.wrl"}]}
+
+Transform {
+	translation -925 -75 -150
+	scale 10 2.5 12
+	children [
+        Inline {url "scaribancom.wrl"}]}
+
+Transform {
+	translation -680.0 -70.0 270.0
+	scale 1 1 1.7
+	children [
+        Inline {url "IntrareCA.wrl"}]}
+
+#Acoperis Corp A
+
+Transform {
+	translation -1040.0 80.0 320.0
+	scale 1.2 1 1.2
+	children [
+        Inline {url "AcoperisA.wrl"}]}
+
+Transform {
+	translation -510.0 70.0 70.0
+	scale 3.8 0.7 1.8
+	children [
+        Inline {url "AcoperisCorpA.wrl"}]}
+
+Transform {
+	translation -890.0 70.0 70.0
+	scale 1.1 0.7 1.8
+	children [
+        Inline {url "AcoperisCorpA1.wrl"}]}  
+
+Transform {
+	translation -890.0 70.0 70.0
+  rotation 0 1 0 4.71
+	scale 2.8 0.7 1.1
+	children [
+        Inline {url "AcoperisCorpA.wrl"}]}   
+
+Transform {
+	translation -830.0 82.0 -210.0
+  rotation 0 1 0 4.71
+	scale 1.5 1.1 1.7
+	children [
+        Inline {url "AcoperisCorpA1.wrl"}]}  
+
+Transform {
+	translation -830.0 100.0 -210.0
+  rotation 0 1 0 3.14
+	scale 3.2 0.7 2
+	children [
+        Inline {url "AcoperisCorpA.wrl"}]}
+
+Transform {
+	translation -510.0 82.0 -210.0
+  rotation 0 1 0 3.14
+	scale 1 1.1 1.5
+	children [
+        Inline {url "AcoperisCorpA1.wrl"}]} 
+
+Transform {
+	translation -510.0 70.0 -210.0
+  rotation 0 1 0 1.57
+	scale 2.8 0.7 1
+	children [
+        Inline {url "AcoperisCorpA.wrl"}]}  
+
+Transform {
+	translation -510.0 70.0 70.0
+  rotation 0 1 0 1.57
+	scale 1.8 0.7 1
+	children [
+        Inline {url "AcoperisCorpA1.wrl"}]}    
+
+Transform {
+	translation -195.0 125.0 277.0  
+	scale 1.15 0.5 0.50
+	children [
+        Inline {url "AcoperisPod.wrl"}]}
+
+Transform {
+	translation -460.0 185.0 277.0  
+	scale 0.5 0.5 0.50
+	children [
+        Inline {url "AcoperisPod.wrl"}]}     
+
+#Corp A
+#End
+
+#Pamant
+	Transform {
+		translation -500 -93 0
+		rotation 0 1 0 3.14
+		scale 230 40 200
+		children [
+            Inline {url "pamant.wrl"}]}
+Transform {
+		translation -700 -77 -70
+		scale 38 1 27
+		children [
+            Inline {url "pamantterasa.wrl"}]}
+
+
+#Copaci
+Transform {
+		translation -362 -70 175
+		scale 12 18 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 185 -70 -175
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 190 -70 -130
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 187 -70 -85
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 185 -70 -40
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 192 -70 5
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 190 -70 50
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 187 -70 95
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 190 -70 140
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 185 -70 185
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation 187 -70 230
+		scale 12 25 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -724 -70 -126
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -624 -70 -37
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -560 -70 -176
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -560 -70 -96
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -560 -70 16
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -630 -70 -126
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -710 -70 -56
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -700 -70 16
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -850 -70 -70
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -800 -70 0
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -1020 -70 122
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -1020 -70 32
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -1020 -70 -12
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -855 -70 370
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -868 -70 272
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -775 -70 280
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -810 -70 300
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -755 -70 340
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -541 -70 286
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -595 -70 304
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -495 -70 355
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -445 -70 347
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -395 -70 350
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -345 -70 355
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -295 -70 347
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -245 -70 350
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -195 -70 355
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -145 -70 347
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}
+Transform {
+		translation -95 -70 347
+		scale 12 19 12
+		children [
+            Inline {url "copac.wrl"}]}

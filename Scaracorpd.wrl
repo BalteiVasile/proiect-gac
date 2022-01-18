@@ -1,0 +1,397 @@
+#VRML V2.0 utf8
+
+
+Transform {
+	translation	0 0 -14.5
+	children [
+		Shape {
+			appearance DEF Gray Appearance {
+				material Material {
+					diffuseColor 0.3 0.3 0.3}
+				}
+				geometry Box {
+					size 40 40 40}
+				}
+			]
+		}
+	Transform {
+		translation	0 -17.5 32.5
+		children [Shape	{
+		appearance USE Gray 
+		geometry Box {
+			size 40 5 50}
+		}]}
+	Transform {
+		translation	0 -12.5 30
+		children [Shape	{
+		appearance USE Gray 
+		geometry Box {
+			size 40 5 40}
+		}]}
+	Transform {
+		translation	0 -7.5 25
+		children [Shape	{
+		appearance USE Gray 
+		geometry Box {
+			size 40 5 35}
+		}]}
+	Transform {
+		translation	0 -2.5 20
+		children [Shape	{
+		appearance USE Gray 
+		geometry Box {
+			size 40 5 30}
+		}]}
+	Transform {
+		translation	0 2.5 15
+		children [Shape	{
+		appearance USE Gray 
+		geometry Box {
+			size 40 5 25}
+		}]}
+	Transform {
+		translation	0 7.5 10
+		children [Shape	{
+		appearance USE Gray 
+		geometry Box {
+			size 40 5 20}
+		}]}
+	Transform {
+		translation	0 12.5 5
+		children [Shape	{
+		appearance USE Gray 
+		geometry Box {
+			size 40 5 15}
+		}]}
+	Transform {
+		translation	0 -12.5 5
+		children [Shape	{
+		appearance USE Gray
+		geometry Box {
+			size 40 15 20}
+		}]}
+	Transform {
+		translation	-23.2 7.5 -12
+		children [Shape	{
+			appearance Appearance	{
+				material Material {
+						}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+			}
+				geometry Box {
+					size 6.5 55 45}
+				}
+			]
+		}
+	Transform {
+		translation	-23.15 37 -11
+		children [Shape	{
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.3 0.1 0.4}
+				}
+				geometry Box {
+					size 9.5 4 46.8}
+				}
+			]
+		}
+	Transform {
+		translation	-23.15 0 30
+		children [Shape	{
+			appearance Appearance {
+				material Material {
+						}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+				}
+			geometry IndexedFaceSet	{
+				coord Coordinate {point	[3.2 -20 35, 3.2 -20 -19.5, -3.3 -20 -19.5, -3.3 -20 35, 3.2 2.15 35, 3.2 36.5 -19.5, -3.3 36.5 -19.5, -3.3 2.15 35 ]}
+				coordIndex [0 4 7 3 -1
+					1 5 4 0 -1
+					2 6 5 1 -1
+					3 7 6 2 -1
+					4 5 6 7 -1
+					0 3 2 1 1]}
+				}
+			]
+		}
+	Transform {
+		translation	-23.15 19.75 40
+		rotation 1 0 0 0.548
+		children [Shape	{
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.3 0.1 0.4}
+				}
+				geometry Box {
+					size 9.5 4 67.5}
+				}
+			]
+		}
+	Transform {
+		translation	23.2 7.5 13
+		children [Shape	{
+			appearance Appearance	{
+				material Material {
+						}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }}
+				geometry Box {
+					size 6.5 55 95}
+				}
+			]
+		}
+	Transform {
+		translation	-23.15 41.5 2.5
+		children [
+			DEF	Leg Shape {
+				appearance Appearance {
+					material Material {
+						diffuseColor 0.7 0.7 0.7}}
+				geometry Box {
+					size 1 5 1}
+				}
+			]
+		}
+	Transform {
+		translation	-23.15 41.5 -27.5
+		children [USE Leg ]}
+	Transform {
+		translation	-23.15 41.5 -12.5
+		children [USE Leg ]}
+	Transform {
+		translation	-23.15 43.5 -11
+		children [Shape	{
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.7 0.7 0.7}
+				}
+				geometry Box {
+					size 1 1 46.8}
+				}
+			]
+		}		
+		Transform {
+		translation	-23.15 26.15 40.25
+		rotation 1 0 0 0.548
+		children [Shape	{
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.7 0.7 0.7}
+				}
+				geometry Box {
+					size 1 1 67.5}
+				}
+			]
+		}
+		Transform {
+		translation	-23.15 35.5 19.5
+		rotation 1 0 0 0.548	
+		children [USE Leg]}
+		Transform {
+		translation	-23.15 23.25 39.5
+		rotation 1 0 0 0.548	
+		children [USE Leg]}
+		Transform {
+		translation	-23.15 11.25 59.5
+		rotation 1 0 0 0.548	
+		children [USE Leg]}
+		Transform {
+			translation	36.25 2.595 72.25
+			rotation 0 1 0 0.78
+			children [Shape	{
+				appearance Appearance {
+						material Material {
+						}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+					}
+					geometry Box {
+						size 6.5 64.8 40}
+					}
+				]
+			}
+
+		Transform {
+			translation -13.5 -22.5 87.5
+			children [Shape	{
+				appearance USE Gray
+				geometry Box {
+					size 80 5 60}
+				}
+			]
+		}
+		Transform {
+			translation -17.5 -27.5 87.5
+			children [Shape	{
+				appearance USE Gray
+				geometry Box {
+					size 88 5 60}
+				}
+			]
+		}
+		Transform {
+			translation	0 -25 11.5
+			children [Shape	{
+				appearance USE Gray
+				geometry Box {
+					size 52.9 10 92.1}
+				}
+			]
+		}
+		Transform {
+			translation	49.5 -15 104.1
+			children [Shape	{
+				appearance Appearance {
+					material Material {
+						}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+					}
+				geometry Box {
+					size 6.5 30 39.4}
+				}
+			]
+		}
+		Transform {
+			translation	-4.35 -15 120.7
+			children [Shape	{
+				appearance Appearance {
+					material Material {
+						}
+ texture ImageTexture {
+   url "wbrick.jpg"
+  }
+					}
+					geometry Box {
+						size 114.3 30 6.5}
+					}
+				]
+			}
+		Transform {
+		children [Shape	{
+			appearance USE Gray
+			geometry IndexedFaceSet	{
+				coord Coordinate {point	[46.25 -30 82.05, 26.5 -30 61.5, 26.5 -30 117.5, 46.25 -30 117.5, 46.25 -20 82.05, 26.5 -20 61.5, 26.5 -20 117.5, 46.25 -20 117.5]}
+				coordIndex [0 4 7 3 -1
+					1 5 4 0 -1
+					2 6 5 1 -1
+					3 7 6 2 -1
+					4 5 6 7 -1
+					0 3 2 1 1]}
+				}
+			]
+		}
+		Transform {
+		translation	23.15 37 13
+		children [Shape	{
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.3 0.1 0.4}
+				}
+				geometry Box {
+					size 9.5 4 95}
+				}
+			]
+		}
+		Transform {
+			translation	36.25 37 72.25
+			rotation 0 1 0 0.78
+			children [Shape	{
+				appearance Appearance {
+						material Material {
+						diffuseColor 0.3 0.1 0.4}
+					}
+					geometry Box {
+						size 9.5 4 41.5}
+					}
+				]
+			}
+		Transform {
+			translation	-4.35 2 120.7
+			children [Shape	{
+				appearance Appearance {
+					material Material {
+						diffuseColor 0.3 0.1 0.4}
+					}
+					geometry Box {
+						size 117.3 4 9.5}
+					}
+				]
+			}
+		Transform {
+			translation	49.5 2 107.6
+			children [Shape	{
+				appearance Appearance {
+					material Material {
+						diffuseColor 0.3 0.1 0.4}
+					}
+				geometry Box {
+					size 9.5 4 35.4}
+				}
+			]
+		}
+		Transform {
+			translation	45.05 4.5 120.7
+			children [USE Leg ]
+		}
+		Transform {
+			translation	 28.3 4.5 120.7
+			children [USE Leg ]
+		}
+		Transform {
+			translation	 11.55 4.5 120.7
+			children [USE Leg ]
+		}
+		Transform {
+			translation	 -5.2 4.5 120.7
+			children [USE Leg ]
+		}
+		Transform {
+			translation	 -21.95 4.5 120.7
+			children [USE Leg ]
+		}
+		Transform {
+			translation	 -39.22 4.5 120.7
+			children [USE Leg ]
+		}
+		Transform {
+			translation	 -55.45 4.5 120.7
+			children [USE Leg ]
+		}
+		Transform {
+			translation	49.5 4.5 116.45
+			children [USE Leg ]	}
+		Transform {
+			translation	49.5 4.5 98.75
+			children [USE Leg ]	}
+		Transform {
+			translation	-5.5 7.5 120.7
+			children [Shape	{
+				appearance Appearance {
+					material Material {
+						diffuseColor 0.7 0.7 0.7}
+					}
+				geometry Box {
+					size 111 1 1}
+				}
+			]
+		}
+		Transform {
+			translation	49.5 7.5 105.23
+			children [Shape	{
+				appearance Appearance {
+					material Material {
+						diffuseColor 0.7 0.7 0.7}
+					}
+				geometry Box {
+					size 1 1 30.65}
+				}
+			]
+		}

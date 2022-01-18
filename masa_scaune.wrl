@@ -1,0 +1,29 @@
+#VRML V2.0 utf8
+
+Group {
+	children [
+		DEF masa Inline {url "masa.wrl"}
+	Transform 
+	{translation 0.42 -0.03 0
+		children [
+			DEF scaun Inline {url "scaun.wrl"}]
+		},
+	Transform 
+	{translation -0.42 -0.03 0
+		rotation 0 1 0 3.14
+		children [
+			USE scaun]
+		},
+	Transform 
+	{translation 0 -0.03 0.42
+		rotation 0 1 0 -1.58
+		children [
+			USE scaun]
+		},
+	Transform 
+	{translation 0 -0.03 -0.42
+		rotation 0 1 0 1.58
+		children [
+			USE scaun ]
+		},
+	]}

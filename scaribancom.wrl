@@ -1,0 +1,82 @@
+#VRML V2.0 utf8
+
+
+Viewpoint {
+position 0 0 50
+orientation 0 0 1 0
+}
+
+Transform {
+  translation 0.0 0.0 0.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 10.0 4.0 10.0
+    }
+  }
+}
+
+Transform {
+  translation -6.0 0.0 -3.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 3.0 4.0 3.0
+    }
+  }
+}
+
+Transform {
+  translation -6.0 0.0 3.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 3.0 4.0 3.0
+    }
+  }
+}
+
+Transform {
+  translation -5.5 0.5 0.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 1.5 2.0 4.0
+    }
+  }
+}
+
+Transform {
+  translation -6.0 -1 0.0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 3.0 2.0 4.0
+    }
+  }
+}

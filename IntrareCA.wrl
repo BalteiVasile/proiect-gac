@@ -1,0 +1,310 @@
+#VRML V2.0 utf8
+
+Transform {
+	translation 0 45 10
+    rotation 1 0 0 1.5707
+	scale 22 35 10
+	children [
+        Inline {url "Arca.wrl"}]}
+
+Transform {
+  translation 0 55.5 10
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 50.0 2.0 70.0
+    }
+  }
+}
+
+Transform {
+  translation -24 50 10
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 7.0 10.0 70.0
+    }
+  }
+}
+
+Transform {
+  translation 24 50 10
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 7.0 10.0 70.0
+    }
+  }
+}
+
+Transform {
+  translation 0 0 0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 100.0 20.0 50.0
+    }
+  }
+}
+
+Transform {
+  translation 0 0 35
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 20.0 20.0
+    }
+  }
+}
+
+#Scari
+
+Transform {
+  translation 0 -1 45
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 18.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -2 47.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 16.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -3 50
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 14.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -4 52.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 12.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -5 55
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 10.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -6 57.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 8.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -7 60
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 6.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -8 62.5
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 4.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation 0 -9 65
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 60.0 2.0 5.0
+    }
+  }
+}
+
+Transform {
+  translation -33 3 47
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 6.0 26.0 56.0
+    }
+  }
+}
+
+Transform {
+  translation 33 3 47
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 6.0 26.0 56.0
+    }
+  }
+}
+
+Transform {
+  translation 42 3 22
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 16.0 26.0 6.0
+    }
+  }
+}
+
+Transform {
+  translation -42 3 22
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 16.0 26.0 6.0
+    }
+  }
+}
+
+Transform {
+  translation 50 3 0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 6.0 26.0 50.0
+    }
+  }
+}
+
+Transform {
+  translation -50 3 0
+  children Shape {
+    appearance Appearance {
+      material Material {}
+ texture PixelTexture {
+ image 2 1 1 255 255
+ }
+    }
+    geometry Box {
+ size 6.0 26.0 50.0
+    }
+  }
+}

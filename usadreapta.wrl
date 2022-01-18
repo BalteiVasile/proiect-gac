@@ -1,0 +1,37 @@
+#VRML V2.0 utf8
+
+DEF trans Transform {
+  center 9 0 -1
+  children [
+    Shape {
+      appearance Appearance {
+          texture	ImageTexture {
+			  url "doorhouse1.JPG"}
+      }
+      geometry Box {
+        size 18 40 2
+      }
+    }
+    DEF ts TouchSensor {
+    }
+  ]
+
+}
+
+DEF sc Script {
+  eventIn SFTime set_touchTime
+  eventOut SFRotation rotation_changed
+  field SFBool open FALSE
+  url "javascript:
+  function set_touchTime(sftime, ts){
+    if(open){
+      rotation_changed = new SFRotation();
+    } else {
+      rotation_changed = new SFRotation(0,1,0,1.5707);
+    }
+    open = !open;
+  }
+  "}
+
+ROUTE ts.touchTime_changed TO sc.set_touchTime
+ROUTE sc.rotation_changed TO trans.set_rotation
