@@ -1,0 +1,255 @@
+#VRML V2.0 utf8
+
+ Transform {
+	  translation 0 -2 -3 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{
+		}
+		texture ImageTexture {
+   url "brick.jpg"
+}
+	}
+	geometry Box {
+	size 12 3 2
+	}
+}
+
+]
+}
+ Transform {
+	  translation 0 1.5 0 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 12 4 8
+	}
+}
+
+]
+}
+
+
+ Transform {
+	  translation -8 2.6 0
+	 rotation 0 0 1 -0.13
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 4 4 8
+	}
+}
+
+]
+}
+ Transform {
+	  translation -6 1.55 0
+	 rotation 0 0 1 -0.15
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 4 2.5 8
+	}
+}
+
+]
+}
+
+ Transform {
+	  translation -8.5 0.5 0
+	 rotation 0 0 1 -0.15
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 1 1 8
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 5 3.6 0
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 1 1 8
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 6.5 2 -3
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 3 3 2
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 6.5 0 -3
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 2 2 2
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 6 -2.8 -3
+	  rotation 0 0 1 0.78
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{
+		}
+		texture ImageTexture {
+   url "brick.jpg"
+}
+	}
+	geometry Box {
+	size 1 1 2
+	}
+}
+
+]
+}
+
+
+Transform {
+	  translation 6.2 -2.3 -3
+
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ }
+		texture ImageTexture {
+   url "brick.jpg"
+}
+		
+	}
+	geometry Box {
+	size 1 1 2
+	}
+}
+
+]
+}
+
+  Transform {
+	  translation -7.1 -0.8 -1.6
+	 rotation 0 0 1 -0.15
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 2.2 2.5 0.3
+	}
+}
+
+]
+}
+
+  Transform {
+	  translation -8.2 -1.8 -2.7
+	 rotation 0 0 1 -0.15
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 0.3 0.3 2.5
+	}
+}
+
+]
+}
+  Transform {
+	  translation -6.3 -2 -2.7
+	 rotation 0 0 1 -0.15
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .75 .6 .46
+			specularColor .08 .08 .05
+			ambientIntensity .153
+			shininess .17
+		}
+	}
+	geometry Box {
+	size 0.3 0.3 2.5
+	}
+}
+
+]
+}
