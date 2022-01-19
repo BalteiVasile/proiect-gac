@@ -1,0 +1,140 @@
+#VRML V2.0 utf8
+
+Transform {
+  translation 0 0 0 
+  rotation 1 0 0 -1.57
+  scale 2 2 2 
+	children [
+        Inline {url "structura.wrl"}]}
+
+
+Transform {
+  translation 1.8 -4.3 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "usa_alba.wrl"}]}
+
+Transform {
+  translation -1.8 -4.3 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "usa_alba.wrl"}]}
+
+Transform {
+  translation -1.8 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+		Transform {
+  translation 1.8 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+				Transform {
+  translation 6 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+		Transform {
+  translation -6 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+	Transform {
+  translation -9.5 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+		Transform {
+  translation 9.5 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+
+Transform {
+  translation 14 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+
+		Transform {
+  translation -14 -1.7 8 
+  scale 0.8 0.8 1 
+	children [
+        Inline {url "geam_mic.wrl"}]}
+
+	Transform {
+  translation -14.5 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+Transform {
+  translation -10 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+	Transform {
+  translation -6 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+		Transform {
+  translation -2 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+		
+
+		Transform {
+  translation 2 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+		Transform {
+  translation 6 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+		Transform {
+  translation 10 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+	Transform {
+  translation 14 3.5 4 
+  scale 0.6 0.6 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+	Transform {
+  translation -17 8 11
+ rotation 0 1 0 1.57
+  scale 0.6 0.9 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+		Transform {
+  translation -17 3 11
+ rotation 0 1 0 1.57
+  scale 0.6 0.9 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}
+
+	Transform {
+  translation -17 -3 11
+ rotation 0 1 0 1.57
+  scale 0.6 0.9 1 
+	children [
+        Inline {url "geam_mare.wrl"}]}

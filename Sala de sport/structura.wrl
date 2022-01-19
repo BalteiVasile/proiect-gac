@@ -1,0 +1,413 @@
+#VRML V2.0 utf8
+ #parte dreapta
+ Transform {
+	  translation 0 0 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 18 8 3
+	}
+}
+
+]
+}
+
+ Transform {
+	  translation 0 1 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 18 6 3
+	}
+}
+
+]
+}
+ Transform {
+	  translation 0 -4.2 -0.25 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 18 0.5 0.5
+	}
+}
+
+]
+}
+
+ Transform {
+	  translation 0 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{
+			diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 2 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+Transform {
+	  translation 4 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+Transform {
+	  translation -2 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+Transform {
+	  translation -4 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+Transform {
+	  translation 6 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+Transform {
+	  translation -6 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+
+Transform {
+	  translation -8.5 -2.2 1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3.25
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 0 0.75 3 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 18 6.5 0.5
+	}
+}
+
+]
+}
+
+
+Transform {
+  translation 9 -2.2 2.78 
+  rotation 1 0 0 3.14
+  scale 0.2 0.011 0.005 
+	children [
+        Inline {url "acoperis.wrl"}]}
+
+
+
+ Transform {
+	  translation 0 -4.2 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{
+			diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 2 -4.2 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3
+	}
+}
+
+]
+}
+Transform {
+	  translation 4 -4.2 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3
+	}
+}
+
+]
+}
+Transform {
+	  translation -2 -4.2 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3
+	}
+}
+
+]
+}
+Transform {
+	  translation -4 -4.2 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3
+	}
+}
+
+]
+}
+Transform {
+	  translation 6 -4.2 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3
+	}
+}
+
+]
+}
+Transform {
+	  translation -6 -4.2 -1.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 0.5 0.5 3
+	}
+}
+
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#parte stanga
+ Transform {
+	  translation -10 -0.8 1 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor 1 .9 .61
+			emissiveColor .2 .18 .12
+			ambientIntensity 0
+			shininess 0
+		}
+	}
+	geometry Box {
+	size 3 12.5 8
+	}
+}
+
+]
+}
