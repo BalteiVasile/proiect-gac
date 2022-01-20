@@ -1,0 +1,299 @@
+#VRML V2.0 utf8
+
+Transform {
+	  translation 0 -1.5 2.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .76 .73 .54
+			ambientIntensity .0533
+			shininess .19
+			specularColor .38 .38 .27
+			emissiveColor .18 .17 .13
+		}
+	}
+	geometry Box {
+	size 20 0.5 10
+	}
+}
+
+]
+}
+
+
+#scari
+Transform {
+	  translation -1 -1.65 7.75 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .38 .38 .38
+			ambientIntensity 0
+			shininess .23
+			specularColor 1 .86 .46
+			emissiveColor .18 .18 .18
+		}
+	}
+	geometry Box {
+	size 8 0.25 0.5
+	}
+}
+
+]
+}
+
+Transform {
+	  translation -1 -1.4 7.6 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .38 .38 .38
+			ambientIntensity 0
+			shininess .23
+			specularColor 1 .86 .46
+			emissiveColor .18 .18 .18
+		}
+	}
+	geometry Box {
+	size 8 0.25 0.25
+	}
+}
+
+]
+}
+
+#rampa
+Transform {
+	  translation 4 -1.5 8.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .38 .38 .38
+			ambientIntensity 0
+			shininess .23
+			specularColor 1 .86 .46
+			emissiveColor .18 .18 .18
+		}
+	}
+	geometry Box {
+	size 2 0.5 2
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 7.5 -1.5 8.5
+	 rotation 0 0 1 -0.08
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .38 .38 .38
+			ambientIntensity 0
+			shininess .23
+			specularColor 1 .86 .46
+			emissiveColor .18 .18 .18
+		}
+	}
+	geometry Box {
+	size 5.02 0.1 2
+	}
+}
+
+]
+}
+#cladire
+  
+
+Transform {
+	  translation 0 0 0 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .76 .73 .54
+			ambientIntensity .0533
+			shininess .19
+			specularColor .38 .38 .27
+			emissiveColor .18 .17 .13
+		}
+	}
+	geometry Box {
+	size 20 3 5
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 7.5 0 5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .76 .73 .54
+			ambientIntensity .0533
+			shininess .19
+			specularColor .38 .38 .27
+			emissiveColor .18 .17 .13
+		}
+	}
+	geometry Box {
+	size 5 3 5
+	}
+}
+
+]
+}
+Transform {
+	  translation -7.5 0 5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .76 .73 .54
+			ambientIntensity .0533
+			shininess .19
+			specularColor .38 .38 .27
+			emissiveColor .18 .17 .13
+		}
+	}
+	geometry Box {
+	size 5 3 5
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 0 3 2.5 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .76 .73 .54
+			ambientIntensity .0533
+			shininess .19
+			specularColor .38 .38 .27
+			emissiveColor .18 .17 .13
+		}
+	}
+	geometry Box {
+	size 20 3 10
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 0 0 7 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .44 .27 .17
+			ambientIntensity .04
+			shininess .19
+			specularColor .29 .31 .05
+			emissiveColor .21 .13 .08
+		}
+	}
+	geometry Box {
+	size 0.4 3 0.4
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 2 0 7 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .44 .27 .17
+			ambientIntensity .04
+			shininess .19
+			specularColor .29 .31 .05
+			emissiveColor .21 .13 .08
+		}
+	}
+	geometry Box {
+	size 0.4 3 0.4
+	}
+}
+
+]
+}
+
+Transform {
+	  translation -2 0 7 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .44 .27 .17
+			ambientIntensity .04
+			shininess .19
+			specularColor .29 .31 .05
+			emissiveColor .21 .13 .08
+		}
+	}
+	geometry Box {
+	size 0.4 3 0.4
+	}
+}
+
+]
+}
+
+Transform {
+	  translation 4 0 7 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{diffuseColor .44 .27 .17
+			ambientIntensity .04
+			shininess .19
+			specularColor .29 .31 .05
+			emissiveColor .21 .13 .08
+		}
+	}
+	geometry Box {
+	size 0.4 3 0.4
+	}
+}
+
+]
+}
+
+Transform {
+	  translation -4 0 7 
+	  children [
+Shape {
+	appearance Appearance {
+		material Material{ diffuseColor .44 .27 .17
+			ambientIntensity .04
+			shininess .19
+			specularColor .29 .31 .05
+			emissiveColor .21 .13 .08
+		}
+	}
+	geometry Box {
+	size 0.4 3 0.4
+	}
+}
+
+]
+}
+
+Transform {
+  translation 10 5 2  
+  scale 0.2 0.02 0.06 
+	children [
+        Inline {url "acoperis.wrl"}]}
+
+Transform {
+  translation -10 5 2  
+  scale 0.2 0.02 0.06
+ rotation 0 1 0 3.14
+	children [
+        Inline {url "acoperis.wrl"}]}
