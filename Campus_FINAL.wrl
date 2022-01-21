@@ -69,10 +69,19 @@ Transform {
 		rotation 0 0 0 -1.57
 		scale 25 25 25
 		children [
-            Inline {url "cantina/cantina.wrl"}]}
+            Inline {url "cantina/cantina.wrl"}
+		]}
 
-
+Transform	
+{
+	translation	400 150 -1300
+	
+	scale	25 25 25
+	children
+	[
+		Inline {url "corp c\corpC.wrl"}
+	]
 			
-
+}
 
 
