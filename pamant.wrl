@@ -13,7 +13,7 @@ Transform {
 					  scale 20 20
 				  }
 				}
-				geometry Box {size 10 1 10}
+				geometry Box {size 20 1 20}
 			}
 		]
 }
